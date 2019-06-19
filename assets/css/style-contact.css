@@ -178,7 +178,9 @@ html{
             width:100%;
             height:100%
         }
-    
+        .top-background{
+            width:960px;
+        }
     }
 
     
@@ -193,17 +195,35 @@ html{
             width:100%;
             height:100%
         }
-        
+        .top-background{
+            width:768px;
+        }
         
     }
     
     @media screen and (min-width:660px; max-width:680px){
         .boxed {
             width:640px;
+            margin:0
         }
         html{
             width:100%;
             height:100%;
         }
-    
-    }
+        .top-background{
+            width:640px;
+            display:inline;
+            position:relative
+        }
+        h1{
+            float:none;
+            margin:0px;
+        }
+        .buttons{
+            float:none;
+            margin:0px;
+        
+        }
+        footer{
+            margin-top:0;
+        }
