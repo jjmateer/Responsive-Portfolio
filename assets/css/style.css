@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin:0px;
 }
 
 * {
@@ -65,7 +66,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: auto;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -225,10 +226,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width:768px) {
-  body{
 
-    
-  }
 }
 
 @media screen and (max-width:640px) {
@@ -249,10 +247,19 @@ input[type=submit] {
     text-align:justify;
   }
   nav{
-   
+   width:80%;
+   margin-right:10%;
+   margin-left:10%;
+   height:50px;
+   position:static;  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
   }
+  
 
-  .logo{
-    width:100px;
+  #logo{
+    width:100%;
   }
 }
