@@ -4,7 +4,8 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
-  margin:0px;
+  margin:0px; 
+  
 }
 
 * {
@@ -14,8 +15,8 @@ body {
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px;
+  
+  max-width: 660px;
   margin: 0 auto;
   clear: both;
 }
@@ -81,6 +82,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  margin-right:50px
 }
 
 nav a {
@@ -122,7 +124,7 @@ h3, h2 {
 
 #main-container {
   padding-top: 130px;
-  min-height: calc(100vh - 70px);
+  
 }
 
 .main-section {
@@ -218,42 +220,55 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width:980px) {
-  body{
-
-
-  }
-}
-
-@media screen and (max-width:768px) {
+  @media screen and (max-width:980px) {
+}#logo{
+  width:auto;
 
 }
+nav{
+ position:static;
+}
+}
 
-@media screen and (max-width:640px) {
-  body{
+  @media screen and (max-width:768px) {
 
+
+}  
+
+
+
+  @media screen and (max-width:640px) {
+.main-section{
+  margin-left:15px;
+  margin-right:5px;
+  width:95%;
+  margin-top:100px
+
+}
+p{
+  margin:10px;
+  text-align:justify;
+  
+}
+  
+
+
+ 
+  .masthead{
+    position:relative;
+    height:150px;
+    
     
   }
-  .masthead{
-    position:static;
-    height:200px;
-  }
-  .auth-image{
-    position:absolute;
-    width:200px;
-    height:auto;
-  }
-  p{
-    text-align:justify;
-  }
+ 
+  
   nav{
    width:80%;
    margin-right:10%;
    margin-left:10%;
    height:50px;
-   position:static;  
-   display: flex;
-   align-items: center;
+   
+   text-align: center;
    justify-content: center;
   
   }
@@ -262,4 +277,5 @@ input[type=submit] {
   #logo{
     width:100%;
   }
+
 }
